@@ -12,7 +12,10 @@ void main() {
     numberSequence.add(i);
     i++;
   }
-  print(numberSequence);
+  print(numberSequence.first.toString() +
+      " ile " +
+      numberSequence.last.toString() +
+      " arasındaki asal sayılar :");
   while (numberSequence.isNotEmpty) {
     primeNumber.add(numberSequence[0]);
     selectedNumber = numberSequence[0];
@@ -24,6 +27,5 @@ void main() {
       counter++;
     }
   }
-  print(numberSequence);
   print(primeNumber);
 }
