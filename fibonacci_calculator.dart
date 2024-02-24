@@ -5,7 +5,7 @@ void main() {
   List<int> fibonacci = [];
   fibonacci.add(firstNum);
   fibonacci.add(secondNum);
-  int fibonacciLength = 5;
+  int fibonacciLength = 50;
   int sayac = 0;
 
   while (sayac < fibonacciLength - 2) {

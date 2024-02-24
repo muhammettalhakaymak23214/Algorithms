@@ -6,7 +6,7 @@ https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
 void main() {
   List<int> moneys = [200, 100, 50, 20, 10, 5, 1];
   List<int> moneysList = [];
-  int targetMoney = 9;
+  int targetMoney = 900;
   int totalMoney = 0;
   int i = 0;
   int counter = 0;

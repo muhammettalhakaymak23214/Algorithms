@@ -7,7 +7,7 @@ k = 17 için 10 ve 7 sayılarının toplamı 17 ediyor.
 */
 
 void main() {
-  List<int> sayiListesi = [10, 15, 3, 2];
+  List<int> sayiListesi = [10, 19, 3, 2];
   int k = 17;
   print(hesapla(k: k, sayiListesi: sayiListesi));
 }
